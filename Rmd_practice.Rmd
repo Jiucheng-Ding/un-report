@@ -23,7 +23,7 @@ gapminder_1997 <- read_csv("data/gapminder_1997.csv")
   aes(x = gdpPercap, y = lifeExp, color=continent, size=pop/1000000) +
   geom_point() +
   labs(x = "GDP per Capita", y = "Life Expectancy", title = "Do people in richer countries live longer?", 
-  size = "Population (in millions)")
+  size = "Population (in million)")
 ```
 
 
