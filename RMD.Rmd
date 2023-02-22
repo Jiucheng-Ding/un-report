@@ -13,3 +13,7 @@ knitr::opts_knit$set(root.dir = normalizePath(".."))
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r setup, include=TRUE}
+"hehehe"
+```
+
